@@ -7,7 +7,7 @@ function Home() {
       {/* Left Image Panel */}
       <div className="w-1/6 h-full border-r-2 border-gray-200 opacity-90">
         <img
-          src="/Themis.jpg"
+          src={`${import.meta.env.BASE_URL}Themis.jpg`}
           alt="Lady Justice"
           className="w-full   border-r-8 border-blue-900 h-full object-cover object-center"
         />
@@ -18,7 +18,7 @@ function Home() {
         {/* Top Swirl Background */}
         <div className="border-b-8  border-blue-900">
           <img
-            src="/Swirl.jpg"
+            src={`${import.meta.env.BASE_URL}Swirl.jpg`}
             alt=""
             className="w-full  aspect-[25/2] inset-x-0 top-0 object-center object-cover filter grayscale"
           />
