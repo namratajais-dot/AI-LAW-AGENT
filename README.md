@@ -1,12 +1,28 @@
-# React + Vite
+⚖️ Law Chatbot
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🗓️ Date: August 2025
+🧠 Tech Stack: React.js, TailwindCSS, Gemini API, React Markdown, React Icons, Vite
 
-Currently, two official plugins are available:
+🚀 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+An AI-powered chatbot that answers legal queries based on Indian law using the Gemini API.
+Built with a responsive and user-friendly interface to make legal information easily accessible to everyone.
 
-## Expanding the ESLint configuration
+⚙️ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🤖 AI-Powered Legal Assistance: Integrated the Gemini API to provide accurate and contextual answers to legal queries.
+
+🌐 Multi-Language Support: Allows users to ask questions in English, Hindi, and other Indian languages.
+
+🧩 Contextual Memory: Maintains conversation history for better response accuracy and continuity.
+
+🖥️ Modern UI: Developed using React.js, TailwindCSS, and React Icons for a sleek and responsive design.
+
+⚡ Scalable Architecture: Efficient backend structure for handling API requests and storing chat history.
+
+🗣️ Accessibility Focused: Designed to make legal information easily understandable and available through conversational AI.
+
+
+🔗 Live Demo
+
+👉https://namratajais-dot.github.io/AI-LAW-AGENT/
