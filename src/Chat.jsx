@@ -62,7 +62,8 @@ responses concise but useful. Avoid overwhelming the user. At the end of each re
       const payload = { contents: chatHistory };
 
       const apiKey = import.meta.env.VITE_API_KEY;
-      const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent?key=${apiKey}`;
+      console.log('API Key:', apiKey); // Add this line
+      const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
       const res = await fetch(apiUrl, {
         method: "POST",
@@ -106,12 +107,10 @@ responses concise but useful. Avoid overwhelming the user. At the end of each re
       </div>
 
       {/* Messages Area */}
-      <div
-        className="flex-1 overflow-y-auto px-4 py-6 space-y-4 bg-gray-400"
-      >
+      <div className="flex-1 overflow-y-auto px-4 py-6 space-y-4 bg-gray-400">
         {messages.length === 0 && !isLoading && (
           <div className="flex flex-col items-center justify-center text-center h-screen  text-white">
-            <RiRobot2Fill size={64}  />
+            <RiRobot2Fill size={64} />
             <p>Ask your legal questions below.</p>
           </div>
         )}
