@@ -5,10 +5,10 @@ import Chat from "./Chat";
 
 function App() {
   return (
-    <Router basename="/AI-LAW-AGENT">
+    <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Chat" element={<Chat />} />
+        <Route path="/chat" element={<Chat />} />
       </Routes>
     </Router>
   );
